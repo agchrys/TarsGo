@@ -40,6 +40,9 @@ func getMsg(name string) []byte {
 }
 
 func main() {
+	fmt.Println("commit1")
+	fmt.Println("commit2")
+	fmt.Println("commit3")
 	cp := &MyClient{}
 	conf := &transport.TarsClientConf{
 		Proto:        "tcp",
